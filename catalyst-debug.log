@@ -1,0 +1,647 @@
+[debug] [2022-09-20T08:16:46.260Z] : 
+[debug] [2022-09-20T08:16:46.395Z] : ----------------------------------------------------------------------
+[debug] [2022-09-20T08:16:46.413Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-20T08:16:46.413Z] : CLI Version:  1.13.3
+[debug] [2022-09-20T08:16:46.414Z] : Platform:     win32
+[debug] [2022-09-20T08:16:46.414Z] : Node Version: v16.14.2
+[debug] [2022-09-20T08:16:46.877Z] : Time:         Tue Sep 20 2022 13:46:46 GMT+0530 (India Standard Time)
+[debug] [2022-09-20T08:16:46.878Z] : ----------------------------------------------------------------------
+[debug] [2022-09-20T08:16:46.878Z] : 
+[debug] [2022-09-20T08:17:34.734Z] : > authorizing via signed-in user option
+[debug] [2022-09-20T08:17:34.735Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-20T08:17:34.884Z] : > refreshing access token <
+[debug] [2022-09-20T08:17:34.886Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-20T08:17:36.319Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 08:17:53 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=2367d0ad-c84d-4488-8eab-7b9e0f5494bd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2367d0ad-c84d-4488-8eab-7b9e0f5494bd;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T08:17:36.501Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013 
+
+[debug] [2022-09-20T08:17:37.027Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 08:17:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=777c345c-c174-4478-a98a-eba9808c196f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=777c345c-c174-4478-a98a-eba9808c196f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T08:17:37.032Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/environment 
+
+[debug] [2022-09-20T08:17:37.319Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 08:17:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=fe898ce7-51cf-49f6-9de8-03e55a4ea72a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fe898ce7-51cf-49f6-9de8-03e55a4ea72a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T08:17:45.870Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-20T08:17:46.238Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 08:18:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=327a87d7-0339-4815-99ed-1877e239dd81;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=327a87d7-0339-4815-99ed-1877e239dd81;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T08:17:46.242Z] : unknown eol undefined hence skipping check
+[info] [2022-09-20T08:17:47.226Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-20T08:17:47.226Z] : 
+[info] [2022-09-20T08:17:50.032Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-20T08:28:46.171Z] : Addition of file(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T08:28:49.475Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T08:28:51.722Z] : Change(s) is detected in patient.html of the Web-Client.
+[debug] [2022-09-20T12:22:35.178Z] : 
+[debug] [2022-09-20T12:22:35.248Z] : ----------------------------------------------------------------------
+[debug] [2022-09-20T12:22:35.285Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-20T12:22:35.285Z] : CLI Version:  1.13.3
+[debug] [2022-09-20T12:22:35.286Z] : Platform:     win32
+[debug] [2022-09-20T12:22:35.286Z] : Node Version: v16.14.2
+[debug] [2022-09-20T12:22:36.207Z] : Time:         Tue Sep 20 2022 17:52:35 GMT+0530 (India Standard Time)
+[debug] [2022-09-20T12:22:36.208Z] : ----------------------------------------------------------------------
+[debug] [2022-09-20T12:22:36.208Z] : 
+[debug] [2022-09-20T12:24:13.473Z] : > authorizing via signed-in user option
+[debug] [2022-09-20T12:24:13.474Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-20T12:24:13.778Z] : > refreshing access token <
+[debug] [2022-09-20T12:24:13.780Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-20T12:24:15.431Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 12:24:32 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=6482c65e-dc9a-447a-abfc-ee78eb2eeab5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6482c65e-dc9a-447a-abfc-ee78eb2eeab5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T12:24:15.669Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013 
+
+[debug] [2022-09-20T12:24:16.101Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 12:24:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=6598cc5a-15a1-4e62-936b-a8bdc60640ef;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6598cc5a-15a1-4e62-936b-a8bdc60640ef;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T12:24:16.105Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/environment 
+
+[debug] [2022-09-20T12:24:16.351Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 12:24:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=4d17d2e6-c68d-4604-9cc2-94dd8a3af54b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4d17d2e6-c68d-4604-9cc2-94dd8a3af54b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T12:24:30.729Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-20T12:24:31.017Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 12:24:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=ad945bcf-dffd-4b99-b560-c5f402afa26b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ad945bcf-dffd-4b99-b560-c5f402afa26b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T12:24:31.022Z] : unknown eol undefined hence skipping check
+[info] [2022-09-20T12:24:31.413Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-20T12:24:31.414Z] : 
+[info] [2022-09-20T12:24:32.843Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-20T12:30:05.613Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:07.023Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:28.525Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:28.529Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:34.496Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:43.608Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:46.951Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:48.438Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:53.123Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:54.759Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:30:57.980Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:32:09.211Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:32:14.255Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:32:20.235Z] : Change(s) is detected in index.html of the Web-Client.
+[error] [2022-09-20T12:32:20.343Z] : × Unable to serve the requested file: C:\Users\kamal\CatalystProjects\UnifiedPatientPortal\client\htt
+[debug] [2022-09-20T12:32:20.343Z] : Error: ENOENT: no such file or directory, stat 'C:\Users\kamal\CatalystProjects\UnifiedPatientPortal\client\htt'
+[info] [2022-09-20T12:32:33.973Z] : Change(s) is detected in index.html of the Web-Client.
+[error] [2022-09-20T12:32:34.074Z] : × Unable to serve the requested file: C:\Users\kamal\CatalystProjects\UnifiedPatientPortal\client\https
+[debug] [2022-09-20T12:32:34.074Z] : Error: ENOENT: no such file or directory, stat 'C:\Users\kamal\CatalystProjects\UnifiedPatientPortal\client\https'
+[info] [2022-09-20T12:32:35.196Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:32:36.939Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:32:40.988Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:32:45.622Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:32:46.946Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:33:24.210Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:33:27.795Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:33:30.238Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:33:34.899Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:33:39.944Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:33:49.231Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:35:01.912Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:35:04.784Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:36:01.079Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:36:03.189Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:36:34.872Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:36:47.523Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:36:52.523Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:36:57.278Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:36:59.252Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:37:00.478Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:43:31.867Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:43:31.931Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:44:03.248Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:44:19.759Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:44:26.448Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:44:28.729Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:44:28.857Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:44:31.339Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:44:33.648Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:44:42.746Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:44:44.876Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:44:50.696Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:45:02.253Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:45:02.819Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:46:09.176Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:47:07.832Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:47:24.375Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:47:29.363Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:48:00.649Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:48:02.112Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:48:02.116Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:48:05.201Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:48:10.982Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:48:11.090Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:48:21.531Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:49:36.681Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:49:53.098Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:49:54.294Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:49:56.162Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:49:58.955Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:50:02.420Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:50:06.176Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:50:09.151Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:50:35.895Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:50:40.081Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:50:52.098Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:50:55.316Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:51:07.060Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:51:08.712Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:51:09.919Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:51:11.145Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:51:12.703Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:51:19.627Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:13.702Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:52:16.255Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:52:18.787Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:52:33.710Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:37.801Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:41.567Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:48.375Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:49.793Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:55.373Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:57.235Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:52:59.439Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:01.643Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:03.742Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:03.827Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:06.757Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:11.318Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:17.022Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:18.536Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:22.124Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:27.459Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T12:53:58.017Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:15.044Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:16.560Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:22.405Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:24.270Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:27.815Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:33.269Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:41.272Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:44.028Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:45.079Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:47.440Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:48.504Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:52.861Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:55.204Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:54:58.153Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:00.019Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:03.637Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:06.726Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:09.069Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:14.575Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:21.006Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:23.913Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:30.308Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:40.783Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:43.768Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:45.397Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:46.486Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:55:53.519Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:00.541Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:04.461Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:06.260Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:09.852Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:16.680Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:21.446Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:28.568Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:31.902Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:35.168Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:37.268Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:39.195Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:42.084Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:44.540Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:46.582Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:52.433Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:56:55.872Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:01.090Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:02.776Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:23.517Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:27.173Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:30.478Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:32.494Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:33.880Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:37.931Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:49.264Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:52.720Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:57:58.885Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:01.769Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:01.851Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:03.670Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:05.893Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:29.842Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:36.100Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:38.928Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T12:58:38.992Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:14.075Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:14.138Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:16.903Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:20.485Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:21.874Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:40.042Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:43.814Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:01:58.075Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:02.716Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:08.987Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:13.692Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:16.181Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:20.106Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:23.595Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:26.618Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:02:38.483Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:03:31.503Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:03:32.298Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:03:44.253Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:03:58.005Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:05.286Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:07.824Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:12.415Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:14.816Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:19.352Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:25.179Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:30.939Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:31.748Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:34.571Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:43.792Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:04:45.144Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:29.207Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:32.598Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:38.094Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:43.404Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:44.791Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:46.216Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:53.357Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:05:56.474Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:06:13.244Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:06:16.395Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:06:27.671Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:06:32.180Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:06:45.468Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:06:51.849Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:06:53.616Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:07:12.004Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:07:13.645Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:07:16.519Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:07:18.529Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:08:20.866Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:08:24.123Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:08:25.623Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:08:37.492Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:08:39.777Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:08:42.528Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:08:43.665Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:08:51.827Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:08:54.534Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:08:56.413Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:08:59.628Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:09:01.636Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:09:05.818Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:09:07.261Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:09:09.756Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:09:11.307Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:09:14.431Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:09:17.644Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:10:10.322Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:10:13.216Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:10:15.364Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:10:35.997Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:10:38.882Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:10:55.535Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:10:59.658Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:04.143Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:06.410Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:06.477Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:07.707Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:09.827Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:16.526Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:11:16.667Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:11:27.670Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:31.707Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:11:34.780Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:12:01.498Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:12:04.338Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:12:11.386Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:12:21.778Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:12:23.648Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:12:25.659Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:12:27.362Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:13:51.967Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:13:58.720Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:13:58.883Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:14:00.720Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:14:05.406Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:14:18.872Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:14:20.586Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:14:21.020Z] : Change(s) is detected in index.html of the Web-Client.
+[error] [2022-09-20T13:14:21.829Z] : × Error when serving the web-client: Unable to read the homepage file
+[info] [2022-09-20T13:14:21.832Z] : Please exit the command to get more info
+[debug] [2022-09-20T13:14:29.184Z] : client server closed
+[debug] [2022-09-20T13:17:45.258Z] : 
+[debug] [2022-09-20T13:17:45.259Z] : ----------------------------------------------------------------------
+[debug] [2022-09-20T13:17:45.260Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-20T13:17:45.261Z] : CLI Version:  1.13.3
+[debug] [2022-09-20T13:17:45.261Z] : Platform:     win32
+[debug] [2022-09-20T13:17:45.262Z] : Node Version: v16.14.2
+[debug] [2022-09-20T13:17:45.521Z] : Time:         Tue Sep 20 2022 18:47:45 GMT+0530 (India Standard Time)
+[debug] [2022-09-20T13:17:45.522Z] : ----------------------------------------------------------------------
+[debug] [2022-09-20T13:17:45.522Z] : 
+[debug] [2022-09-20T13:19:39.159Z] : > authorizing via signed-in user option
+[debug] [2022-09-20T13:19:39.160Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-20T13:19:39.930Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013 
+
+[debug] [2022-09-20T13:19:48.531Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 13:20:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=e89402c1-bd0d-4fb4-a9a7-dfd30eeb749c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e89402c1-bd0d-4fb4-a9a7-dfd30eeb749c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T13:19:48.652Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/environment 
+
+[debug] [2022-09-20T13:19:49.157Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 13:20:06 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=7a23111a-c038-44af-93ef-8d8caa305a8c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7a23111a-c038-44af-93ef-8d8caa305a8c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T13:20:06.062Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-20T13:20:06.405Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 13:20:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=9c3c2689-c73b-44d5-a455-c568c537f537;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9c3c2689-c73b-44d5-a455-c568c537f537;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T13:20:06.410Z] : unknown eol undefined hence skipping check
+[info] [2022-09-20T13:20:07.093Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-20T13:20:07.094Z] : 
+[info] [2022-09-20T13:20:08.823Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-20T13:23:38.801Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:23:42.587Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:23:56.844Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:24:01.802Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:06.755Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2022-09-20T13:25:06.787Z] : > refreshing access token <
+[debug] [2022-09-20T13:25:06.919Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-20T13:25:07.295Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 13:25:24 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=9a31a8c7-ab67-49b9-9a2c-8853f3b930fc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9a31a8c7-ab67-49b9-9a2c-8853f3b930fc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-09-20T13:25:08.474Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:13.088Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:31.917Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:31.987Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:36.228Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:38.056Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:42.562Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:44.264Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:46.608Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:49.801Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:25:55.898Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:26:05.799Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:26:05.902Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:26:12.229Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:26:13.345Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:26:16.721Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:27:09.548Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:27:11.466Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:27:14.595Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:27:18.714Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:27:21.390Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:27:24.297Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:27:40.894Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:27:42.112Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:27:44.486Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:27:47.852Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:27:50.003Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:00.216Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:01.913Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:03.322Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:10.823Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:17.618Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:18.932Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:39.247Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:43.955Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:49.932Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:51.993Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:55.479Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:28:59.117Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:02.749Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:04.934Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:10.259Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:16.479Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:21.164Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:31.894Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:34.971Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:36.428Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:43.018Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:46.689Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:48.463Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:51.354Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:53.156Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:29:57.020Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:01.235Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:11.645Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:15.258Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:18.673Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:20.139Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:21.331Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:23.996Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:26.901Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:29.010Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:31.851Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:42.490Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:56.634Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:30:58.451Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:10.607Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:16.606Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:19.803Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:22.884Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:31.656Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:44.507Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:46.655Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:48.134Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:49.576Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:52.347Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:54.423Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:31:58.839Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:02.205Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:05.841Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:08.955Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:10.101Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:13.977Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:18.491Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:21.279Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:27.730Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:40.034Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:42.107Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:43.590Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:45.304Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:32:56.981Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:03.850Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:06.025Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:10.559Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:13.456Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:16.177Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:19.918Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:30.881Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:33:59.317Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:06.957Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:10.939Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:17.721Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:21.099Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:21.267Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:31.286Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:34.420Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:35.855Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:41.233Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:41.300Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:44.103Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:44.196Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:34:54.932Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:34:56.216Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:34:58.223Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:35:08.109Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:35:10.129Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:35:39.207Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:35:40.555Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:35:48.079Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:35:52.527Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:35:55.975Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:36:05.415Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:36:09.185Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:36:28.307Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:36:30.034Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:36:42.384Z] : Addition of file(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:36:46.712Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:36:49.876Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:36:53.209Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:36:53.621Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:36:54.585Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:36:56.325Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:37:02.783Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-20T13:39:38.415Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:39:51.215Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:40:34.927Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:40:47.621Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:40:55.975Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:41:06.249Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:41:11.531Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:41:14.802Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:41:19.786Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:41:22.892Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:41:30.449Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:41:52.871Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:04.958Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:08.471Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:09.690Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:16.620Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:18.552Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:21.704Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:25.954Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:29.761Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:40.089Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:42.369Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:47.224Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:48.827Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:42:51.312Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:43:30.915Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:45:12.698Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:45:18.033Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:45:19.313Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:45:26.602Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:46:04.048Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:07.020Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:09.717Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:12.274Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:21.102Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:22.936Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:31.681Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:41.842Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:43.595Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:46.200Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:50.633Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:53.427Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:46:58.126Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:47:03.714Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:47:33.322Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:47:40.972Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:47:55.439Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:48:08.036Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:48:22.208Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:48:25.482Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:01.564Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:04.233Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:06.692Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:12.993Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:14.456Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:17.810Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:22.788Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:26.781Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:33.594Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:46.696Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:49:53.117Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:50:02.462Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:50:05.617Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:50:11.098Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:50:13.827Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:50:18.856Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:50:22.112Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:50:26.822Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-20T13:51:45.103Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:51:47.869Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:51:51.181Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:51:56.627Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:52:33.812Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:52:35.821Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:52:36.978Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:52:51.477Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:52:58.352Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:01.359Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:03.575Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:05.538Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:06.799Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:10.200Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:14.378Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:19.832Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:23.293Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:24.199Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:33.544Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:53:39.300Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:54:09.787Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:54:16.579Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:54:38.747Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:54:46.179Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:54:54.639Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:55:03.474Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:55:06.399Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:55:11.339Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:55:12.334Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:55:16.816Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:55:29.946Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:55:54.778Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:56:08.270Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:56:22.285Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:56:32.953Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:56:35.104Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:56:44.348Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:56:48.689Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:56:48.760Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:57:08.454Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:57:13.865Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T13:57:17.106Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:14:29.129Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:14:33.351Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:14:33.595Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:25.183Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:27.278Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:30.123Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:33.220Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:34.541Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:39.672Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:41.217Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:42.625Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:43.758Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-20T14:15:50.232Z] : Change(s) is detected in index.html of the Web-Client.

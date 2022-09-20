@@ -1,1 +1,161 @@
-/* LET THE STYLING BEGIN */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.index{
+    height:100vh;
+    width:100%;
+    background-image: url("https://img.freepik.com/premium-photo/black-stethoscope-medical-tool-healthcare-blue-wall-with-copy-space_103324-532.jpg?w=2000");
+    background-size:cover;
+    background-position: center;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:40px;
+    padding-left:10%;
+    padding-right:10%;
+}
+.logo{
+    color:black;
+    font-size:28px;
+}
+.gif{
+    float: left;
+}
+span{
+    color: darkblue;
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: darkblue;
+    transition: .3s;
+}
+button{
+    border:none;
+    background:darkblue;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color:white;
+    font-weight:bold;
+    font-size:15 px;
+    transition: .4s;
+}
+* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown2 {
+    float: left;
+    overflow: hidden;
+  }
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+.dropdown2 .dropbtn2 {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+
+/*blue background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+    background-color: blue;
+  }
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown2-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown2-content a:hover {
+    background-color: #ddd;
+  }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown2:hover .dropdown2-content {
+    display: block;
+  }
