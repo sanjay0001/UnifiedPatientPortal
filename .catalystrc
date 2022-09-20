@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "3179000000002013",
+      "name": "UnifiedPatientPortal",
+      "domain": {
+        "id": "50010642994",
+        "name": "unifiedpatientportal-60016918923.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "60016918923",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

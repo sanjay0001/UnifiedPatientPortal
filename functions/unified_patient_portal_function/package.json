@@ -1,0 +1,9 @@
+{
+	"name": "unified_patient_portal_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "200701212@rajalakshmi.edu.in",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

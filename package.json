@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "zcatalyst-sdk-node": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "zoho_catalyst",
+  "version": "1.0.0",
+  "description": "Unified Patient Portal",
+  "main": "server.js",
+  "author": "Sanjay",
+  "license": "ISC"
+}
