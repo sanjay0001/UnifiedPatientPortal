@@ -1297,3 +1297,42 @@ Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:46:18 GMT","conten
 [info] [2022-09-21T02:50:47.235Z] : Change(s) is detected in adminlogin.html of the Web-Client.
 [info] [2022-09-21T02:50:50.775Z] : Change(s) is detected in adminlogin.html of the Web-Client.
 [info] [2022-09-21T02:50:54.293Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T03:05:57.152Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:11.812Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:13.321Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:16.420Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:20.454Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:21.824Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:23.860Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:24.884Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:27.861Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:37.557Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:06:45.822Z] : Addition of file(s) is detected in patientlogin.css of the Web-Client.
+[info] [2022-09-21T03:06:56.969Z] : Change(s) is detected in patientlogin.css of the Web-Client.
+[info] [2022-09-21T03:07:28.974Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:07:35.560Z] : Change(s) is detected in patient.html of the Web-Client.
+[info] [2022-09-21T03:07:52.564Z] : Addition of file(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:10:17.339Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:10:27.654Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:10:50.204Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:10:53.890Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:10:57.897Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:11:01.962Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:11:16.262Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:11:19.419Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:11:33.496Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:11:39.668Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:11:42.830Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:12:09.276Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:13:14.430Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:13:18.559Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:13:20.912Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:13:44.143Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-21T03:13:51.287Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-21T03:14:04.707Z] : Addition of file(s) is detected in hospitalrequest.css of the Web-Client.
+[info] [2022-09-21T03:15:24.987Z] : Change(s) is detected in hospitalrequest.css of the Web-Client.
+[info] [2022-09-21T03:16:39.705Z] : Addition of file(s) is detected in hospitallogin.html of the Web-Client.
+[info] [2022-09-21T03:16:51.777Z] : Change(s) is detected in hospitallogin.html of the Web-Client.
+[info] [2022-09-21T03:17:01.220Z] : Change(s) is detected in hospitallogin.html of the Web-Client.
+[info] [2022-09-21T03:17:09.704Z] : Change(s) is detected in hospitallogin.html of the Web-Client.
+[info] [2022-09-21T03:17:48.965Z] : Change(s) is detected in index.html of the Web-Client.
