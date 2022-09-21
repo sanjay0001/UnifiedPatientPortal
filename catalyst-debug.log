@@ -1336,3 +1336,579 @@ Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:46:18 GMT","conten
 [info] [2022-09-21T03:17:01.220Z] : Change(s) is detected in hospitallogin.html of the Web-Client.
 [info] [2022-09-21T03:17:09.704Z] : Change(s) is detected in hospitallogin.html of the Web-Client.
 [info] [2022-09-21T03:17:48.965Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-21T03:26:39.940Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:33:28.128Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:33:29.618Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:34:19.952Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:34:21.388Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:34:22.464Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:34:26.915Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:35:34.175Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:36:18.152Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:36:44.432Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:36:54.394Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:18.603Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:20.323Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:22.834Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:26.791Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:30.685Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:34.065Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:36.965Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:39.649Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:37:47.467Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:38:45.377Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:45:07.397Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:45:27.180Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:32.379Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:32.602Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:33.343Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:35.098Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:40.283Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:45.761Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:51.147Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:54.213Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:45:57.932Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:46:03.063Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:46:04.772Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:46:06.609Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:46:07.412Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:46:08.133Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:12.620Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:16.528Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:21.199Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:23.209Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:25.562Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:33.051Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:34.141Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:52.489Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:53.724Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:55.343Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:58.047Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T03:47:59.635Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:07.397Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:09.871Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:17.961Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:23.267Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:26.360Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:28.365Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:33.122Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:36.643Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:41.887Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:44.536Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:45.971Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:49.477Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:50.966Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:48:55.601Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:00.119Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:08.489Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:12.061Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:13.161Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:19.832Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:37.234Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:41.675Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:49:56.837Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:50:20.739Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:50:28.547Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:50:30.609Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:50:39.761Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:50:51.924Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:50:53.639Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:50:54.720Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:51:01.058Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:51:09.915Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:51:11.906Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:51:13.823Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:51:39.074Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:51:45.637Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:51:49.567Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:00.387Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:01.716Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:08.254Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:11.842Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:17.870Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:19.594Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:22.233Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:25.204Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:28.050Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:32.326Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:40.102Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:50.116Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:54.613Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:52:56.698Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:03.813Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:12.278Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:15.970Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:17.031Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:19.873Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:22.018Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:25.481Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:26.660Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:26.745Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:31.216Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:33.229Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:34.998Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:35.186Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:41.261Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:44.959Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:53:47.218Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:12.863Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:18.080Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:20.737Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:20.977Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:27.312Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:28.927Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:32.616Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:34.528Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:38.651Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:40.133Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:42.966Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:45.258Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:50.827Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:52.979Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:56.228Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:54:58.711Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:59:08.979Z] : 
+change of package-lock.json in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T03:59:10.088Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T03:59:10.091Z] : 
+[info] [2022-09-21T03:59:10.203Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T03:59:11.206Z] : 
+change of package.json in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T03:59:11.369Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T03:59:11.372Z] : 
+[info] [2022-09-21T03:59:11.483Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T03:59:16.841Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T03:59:54.990Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:17.875Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:20.180Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:26.831Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:34.870Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:44.422Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:46.584Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:48.035Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:01:50.461Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:01.499Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:03.693Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:07.392Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:16.505Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:46.786Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:49.072Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:54.434Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:02:54.599Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:02:54.631Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:02:54.632Z] : 
+[info] [2022-09-21T04:02:54.743Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:02:55.854Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:01.668Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:03:01.689Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:03:01.690Z] : 
+[info] [2022-09-21T04:03:01.815Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:03:17.196Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:03:17.272Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:03:17.274Z] : 
+[info] [2022-09-21T04:03:17.385Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:03:27.169Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:31.407Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:37.773Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:42.386Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:42.439Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:47.287Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:52.555Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:53.586Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:55.221Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:03:55.328Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:03:55.334Z] : 
+[info] [2022-09-21T04:03:55.443Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:03:57.660Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:03:57.685Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:03:57.686Z] : 
+[info] [2022-09-21T04:03:57.799Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:03:58.202Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:03:59.900Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:04:03.258Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:04:04.781Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:04:06.015Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:04:06.063Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:04:06.066Z] : 
+[info] [2022-09-21T04:04:06.185Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:04:09.783Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:04:10.613Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:04:10.675Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:04:10.680Z] : 
+[info] [2022-09-21T04:04:10.822Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:04:10.954Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:04:18.273Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:04:24.328Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:04:24.386Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:04:24.390Z] : 
+[info] [2022-09-21T04:04:24.499Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:04:37.378Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:04:42.559Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:12.734Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:18.360Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:23.898Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:26.290Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:29.200Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:32.443Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:35.993Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:53.146Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:05:57.624Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:06:02.981Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:06:05.307Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:06:12.146Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T04:06:14.155Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:06:14.273Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:06:14.277Z] : 
+[info] [2022-09-21T04:06:14.379Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:06:18.804Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:06:18.893Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:06:18.897Z] : 
+[info] [2022-09-21T04:06:19.011Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:07:12.989Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:07:13.021Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:07:13.023Z] : 
+[info] [2022-09-21T04:07:13.139Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T04:07:22.512Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T04:07:22.601Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T04:07:22.603Z] : 
+[info] [2022-09-21T04:07:22.711Z] : i server[unified_patient_portal_function]: ready!
+[debug] [2022-09-21T05:54:56.898Z] : 
+[debug] [2022-09-21T05:54:57.064Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T05:54:57.080Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-21T05:54:57.081Z] : CLI Version:  1.13.3
+[debug] [2022-09-21T05:54:57.081Z] : Platform:     win32
+[debug] [2022-09-21T05:54:57.082Z] : Node Version: v16.14.2
+[debug] [2022-09-21T05:54:57.582Z] : Time:         Wed Sep 21 2022 11:24:57 GMT+0530 (India Standard Time)
+[debug] [2022-09-21T05:54:57.583Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T05:54:57.583Z] : 
+[debug] [2022-09-21T05:56:24.850Z] : > authorizing via signed-in user option
+[debug] [2022-09-21T05:56:24.851Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-21T05:56:25.288Z] : > refreshing access token <
+[debug] [2022-09-21T05:56:25.292Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-21T05:56:26.845Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 05:56:47 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=ec4d10ab-5a7f-483d-9295-5354abf18039;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ec4d10ab-5a7f-483d-9295-5354abf18039;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T05:56:27.190Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013 
+
+[debug] [2022-09-21T05:56:27.848Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 05:56:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=1b545c7d-de75-4ff4-a18d-05b4adf89a79;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1b545c7d-de75-4ff4-a18d-05b4adf89a79;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T05:56:27.851Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/environment 
+
+[debug] [2022-09-21T05:56:28.096Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 05:56:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=9f61c944-2433-4e30-969f-eda74af77626;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9f61c944-2433-4e30-969f-eda74af77626;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T05:56:42.193Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-21T05:56:42.595Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 05:57:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=0ae57f3a-bb64-4d04-ac24-0b3a65cbbf27;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0ae57f3a-bb64-4d04-ac24-0b3a65cbbf27;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T05:56:42.599Z] : unknown eol undefined hence skipping check
+[info] [2022-09-21T05:56:43.936Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T05:56:43.937Z] : 
+[info] [2022-09-21T05:56:46.139Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-21T05:56:51.359Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T05:56:51.487Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T05:56:51.490Z] : 
+[info] [2022-09-21T05:56:51.601Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T05:57:00.241Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T05:57:00.268Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T05:57:00.387Z] : 
+[info] [2022-09-21T05:57:00.499Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T05:57:05.281Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T05:57:05.396Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T05:57:05.403Z] : 
+[info] [2022-09-21T05:57:05.511Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T05:57:19.002Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T05:57:19.026Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T05:57:19.027Z] : 
+[info] [2022-09-21T05:57:19.151Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T05:57:22.810Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T05:57:22.835Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T05:57:22.836Z] : 
+[info] [2022-09-21T05:57:22.949Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:01:22.056Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:01:22.076Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:01:22.076Z] : 
+[info] [2022-09-21T06:01:22.178Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:01:36.768Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:01:36.789Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:01:36.790Z] : 
+[info] [2022-09-21T06:01:36.894Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:01:43.702Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:01:43.741Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:01:43.743Z] : 
+[info] [2022-09-21T06:01:43.870Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:01:58.084Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:01:58.102Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:01:58.102Z] : 
+[info] [2022-09-21T06:01:58.212Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:01:59.573Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:01:59.595Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:01:59.596Z] : 
+[info] [2022-09-21T06:01:59.712Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:02:40.966Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:02:40.983Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:02:40.983Z] : 
+[info] [2022-09-21T06:02:41.088Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:02:42.858Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:02:42.876Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:02:42.877Z] : 
+[info] [2022-09-21T06:02:42.993Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:03:03.383Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:03:03.404Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:03:03.405Z] : 
+[info] [2022-09-21T06:03:03.507Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:03:16.461Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:03:16.482Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:03:16.483Z] : 
+[info] [2022-09-21T06:03:16.591Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:04:11.835Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:04:11.858Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:04:11.860Z] : 
+[info] [2022-09-21T06:04:11.973Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:04:40.275Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:04:40.294Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:04:40.295Z] : 
+[info] [2022-09-21T06:04:40.396Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:04:43.194Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:04:43.213Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:04:43.213Z] : 
+[info] [2022-09-21T06:04:43.319Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:25.019Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:25.040Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:25.040Z] : 
+[info] [2022-09-21T06:06:25.142Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:26.585Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:26.714Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:26.717Z] : 
+[info] [2022-09-21T06:06:26.824Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:30.506Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:30.542Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:30.543Z] : 
+[info] [2022-09-21T06:06:30.653Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:34.556Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:34.576Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:34.577Z] : 
+[info] [2022-09-21T06:06:34.693Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:43.297Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:43.325Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:43.326Z] : 
+[info] [2022-09-21T06:06:43.450Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:45.438Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:45.455Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:45.456Z] : 
+[info] [2022-09-21T06:06:45.560Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:46.675Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:46.694Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:46.695Z] : 
+[info] [2022-09-21T06:06:46.809Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:48.533Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:48.552Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:48.553Z] : 
+[info] [2022-09-21T06:06:48.656Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:06:54.324Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:06:54.433Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:06:54.435Z] : 
+[info] [2022-09-21T06:06:54.539Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:07:30.560Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:07:30.576Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:07:30.577Z] : 
+[info] [2022-09-21T06:07:30.691Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:07:34.822Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:07:34.841Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:07:34.894Z] : 
+[info] [2022-09-21T06:07:34.994Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:01.791Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:01.856Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:01.858Z] : 
+[info] [2022-09-21T06:13:01.959Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:06.403Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:06.453Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:06.457Z] : 
+[info] [2022-09-21T06:13:06.572Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:08.589Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:08.606Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:08.607Z] : 
+[info] [2022-09-21T06:13:08.712Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:12.648Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:12.672Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:12.674Z] : 
+[info] [2022-09-21T06:13:12.785Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:14.963Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:15.042Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:15.043Z] : 
+[info] [2022-09-21T06:13:15.161Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:16.648Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:16.667Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:16.668Z] : 
+[info] [2022-09-21T06:13:16.769Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:19.382Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:19.399Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:19.400Z] : 
+[info] [2022-09-21T06:13:19.505Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:24.143Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:24.166Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:24.167Z] : 
+[info] [2022-09-21T06:13:24.279Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:27.978Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:28.085Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:28.087Z] : 
+[info] [2022-09-21T06:13:28.187Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:13:29.803Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:13:29.822Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:13:29.822Z] : 
+[info] [2022-09-21T06:13:29.939Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:14:36.571Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:14:36.587Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:14:36.588Z] : 
+[info] [2022-09-21T06:14:36.697Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:15:48.338Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:15:48.364Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:15:48.365Z] : 
+[info] [2022-09-21T06:15:48.480Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:15:49.495Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:15:49.513Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:15:49.514Z] : 
+[info] [2022-09-21T06:15:49.621Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:16:45.855Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:16:47.549Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:17:00.875Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:17:00.949Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:23.839Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:26.112Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:30.211Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:32.152Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:33.315Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:35.778Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:36.883Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:43.033Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:44.751Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:47.899Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:49.691Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:50.868Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:18:54.664Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:20:23.305Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:07.666Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:11.544Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:15.140Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:17.128Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:19.820Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:22.344Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:25.306Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:35.051Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:42.012Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:43.186Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:43.266Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:21:57.865Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:22:15.699Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:22:17.345Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:22:20.798Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:22:23.936Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:22:25.682Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:22:59.244Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:02.259Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:03.845Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:07.120Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:09.120Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:16.622Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:24.893Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:27.265Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:29.406Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:34.723Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:23:35.952Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:24:13.182Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:24:16.199Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:24:18.519Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:24:18.569Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:24:19.800Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:24:26.616Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:24:28.437Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:25:35.359Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:25:38.150Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:25:40.639Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.
+[info] [2022-09-21T06:27:27.120Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:27:27.261Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:27:27.263Z] : 
+[info] [2022-09-21T06:27:27.380Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:27:28.740Z] : 
+change of index.js in unified_patient_portal_function detected. Preparing your function, please wait...
+[info] [2022-09-21T06:27:28.777Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T06:27:28.780Z] : 
+[info] [2022-09-21T06:27:28.884Z] : i server[unified_patient_portal_function]: ready!
+[info] [2022-09-21T06:28:34.202Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:28:46.493Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:28:51.558Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:28:53.964Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:28:55.214Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:28:57.292Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:05.054Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:05.103Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:09.108Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:18.605Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:20.503Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:24.756Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:26.005Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:30.788Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:33.231Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:42.483Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:42.600Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:29:44.320Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2022-09-21T06:31:37.739Z] : Change(s) is detected in hospitalrequest.html of the Web-Client.

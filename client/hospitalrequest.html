@@ -6,36 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" media="screen" href="adminlogin.css" />
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="login-box">
         <!-- <img src="https://teksoft.in/images/hospitalmgmt_inner3.jpg" alt="bg" height="100%" width="100%">
         <div class="fields"> -->
             <h2>Hospital Request</h2>
-            <form>
+            <form action="post">
                 <div class="user-box">
-                    <input type="text" name="" required="">
+                    <input type="text" name="hosptilname" id="hosptilanameId" required="">
                     <label>Hospital Name</label>
                 </div>
                 <div class="user-box">
-                    <input type="text" name="" required="">
+                    <input type="text" name="contactnumber" id="contactnumberId" required="">
                     <label>Contact Number</label>
                 </div>
                 <div class="user-box">
-                    <input type="text" name="" required="">
+                    <input type="text" name="emailid" id="emailId" required="">
                     <label>Email ID</label>
                 </div>
                 <div class="user-box">
-                    <input type="text" name="" required="">
+                    <input type="text" name="address" id="addressId" required="">
                     <label>Address</label>
                 </div>
-                <a href="#">
+                  <button type="submit" class="btn btn-primary"
+                onclick="postHospitalDetails();return false;">submit</button>
+                
+                 <!-- <a href="#" onclick="postHospitalDetails();return false;">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Submit
-                </a>                
+                </a>   -->
+                    <!-- <input type="button" onclick="postHospitalDetails();return false;" value="Submit"> -->
             </form>
         </div>
     </div>

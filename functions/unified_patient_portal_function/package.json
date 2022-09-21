@@ -4,6 +4,7 @@
 	"main": "index.js",
 	"author": "200701212@rajalakshmi.edu.in",
 	"dependencies": {
+		"express": "^4.18.1",
 		"zcatalyst-sdk-node": "latest"
 	}
 }
