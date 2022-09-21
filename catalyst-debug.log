@@ -1258,3 +1258,42 @@ Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:45:54 GMT","conten
 [debug] [2022-09-21T02:45:35.491Z] : <<<< HTTP RESPONSE : 200
 Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:45:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=ccde33c9-81ea-4c61-83b1-dcc57b5f4709;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ccde33c9-81ea-4c61-83b1-dcc57b5f4709;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
+[debug] [2022-09-21T02:45:43.620Z] : 
+[debug] [2022-09-21T02:45:43.622Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T02:45:43.623Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-21T02:45:43.623Z] : CLI Version:  1.13.3
+[debug] [2022-09-21T02:45:43.624Z] : Platform:     win32
+[debug] [2022-09-21T02:45:43.624Z] : Node Version: v16.14.2
+[debug] [2022-09-21T02:45:43.627Z] : Time:         Wed Sep 21 2022 08:15:43 GMT+0530 (India Standard Time)
+[debug] [2022-09-21T02:45:43.628Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T02:45:43.628Z] : 
+[debug] [2022-09-21T02:45:46.691Z] : > authorizing via signed-in user option
+[debug] [2022-09-21T02:45:46.693Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-21T02:45:46.730Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013 
+
+[debug] [2022-09-21T02:45:47.330Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:46:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=2cf8af59-0d8f-4dc7-8edf-2ea3ba254848;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2cf8af59-0d8f-4dc7-8edf-2ea3ba254848;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T02:45:47.345Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/environment 
+
+[debug] [2022-09-21T02:45:48.729Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:46:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=1d75e18d-cf1f-41a6-bf70-e436831e02f2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1d75e18d-cf1f-41a6-bf70-e436831e02f2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T02:45:55.260Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-21T02:46:00.776Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:46:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=a749ff08-5b34-4a5b-a783-fececc96ab28;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a749ff08-5b34-4a5b-a783-fececc96ab28;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T02:46:00.783Z] : unknown eol undefined hence skipping check
+[info] [2022-09-21T02:46:01.303Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T02:46:01.305Z] : 
+[info] [2022-09-21T02:46:02.326Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-21T02:48:41.904Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:50:15.646Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T02:50:18.570Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T02:50:18.860Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T02:50:44.523Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T02:50:47.235Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T02:50:50.775Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T02:50:54.293Z] : Change(s) is detected in adminlogin.html of the Web-Client.
