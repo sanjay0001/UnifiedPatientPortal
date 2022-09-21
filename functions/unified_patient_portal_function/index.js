@@ -12,13 +12,12 @@ const columnName4 = 'address'; // The column created in the table
 
 // The POST API that reports the alien encounter for a particular city
 app.post('/hrequest', (req, res) => {
- var hospitalJson = req.body;
-// console.log(cityJson);
-
+  console.log("Routed successfully");
+  var hospitalJson = req.body;
  // Initializing Catalyst SDK
  var catalystApp = catalyst.initialize(req);
    var rowData={};
-   rowData['requestId']=hospitalJson.requestId;
+   rowData['requestId']=requestId;
    rowData[columnName1]=hospitalJson.hospitalName;
    rowData[columnName2]=hospitalJson.contactNumber;
    rowData[columnName3]=hospitalJson.mailId;
@@ -35,53 +34,53 @@ app.post('/hrequest', (req, res) => {
     console.log(err);
     sendErrorResponse(res);
    });
-}
+})
 
 // The GET API that checks the table for an alien encounter in that city 
 
 
 
 
-app.get('/alien', (req, res) => {
- var city = req.query.city_name;
+// app.get('/alien', (req, res) => {
+//  var city = req.query.city_name;
 
- // Initializing Catalyst SDK
- var catalystApp = catalyst.initialize(req);
+//  // Initializing Catalyst SDK
+//  var catalystApp = catalyst.initialize(req);
 
- // Queries the Catalyst Data Store table and checks whether a row is present for the given city
- getDataFromCatalystDataStore(catalystApp, city).then(cityDetails => {
-  if (cityDetails.length == 0) {
-   res.send({
-    "message": "Hurray! No alien encounters in this city yet!",
-    "signal": "negative"
-   });
-  } else {
-   res.send({
-    "message": "Uh oh! Looks like there are aliens in this city!",
-    "signal": "positive"
-   });
-  }
- }).catch(err => {
-  console.log(err);
-  sendErrorResponse(res);
- })
-});
-/**
- * Checks whether an alien encounter is already reported for the given city by querying the Data Store table
- * @param {*} catalystApp 
- * @param {*} 
- */
-function getDataFromCatalystDataStore(catalystApp, cityName) {
- return new Promise((resolve, reject) => {
-  // Queries the Catalyst Data Store table
-  catalystApp.zcql().executeZCQLQuery("Select * from "+tableName+" where "+columnName+"='" + cityName + "'").then(queryResponse => {
-   resolve(queryResponse);
-  }).catch(err => {
-   reject(err);
-  })
- });
+//  // Queries the Catalyst Data Store table and checks whether a row is present for the given city
+//  getDataFromCatalystDataStore(catalystApp, city).then(cityDetails => {
+//   if (cityDetails.length == 0) {
+//    res.send({
+//     "message": "Hurray! No alien encounters in this city yet!",
+//     "signal": "negative"
+//    });
+//   } else {
+//    res.send({
+//     "message": "Uh oh! Looks like there are aliens in this city!",
+//     "signal": "positive"
+//    });
+//   }
+//  }).catch(err => {
+//   console.log(err);
+//   sendErrorResponse(res);
+//  })
+// });
+// /**
+//  * Checks whether an alien encounter is already reported for the given city by querying the Data Store table
+//  * @param {*} catalystApp 
+//  * @param {*} 
+//  */
+// function getDataFromCatalystDataStore(catalystApp, cityName) {
+//  return new Promise((resolve, reject) => {
+//   // Queries the Catalyst Data Store table
+//   catalystApp.zcql().executeZCQLQuery("Select * from "+tableName+" where "+columnName+"='" + cityName + "'").then(queryResponse => {
+//    resolve(queryResponse);
+//   }).catch(err => {
+//    reject(err);
+//   })
+//  });
 
-}
+// }
 
 /**
  * Sends an error response

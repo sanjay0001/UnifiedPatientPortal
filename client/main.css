@@ -10,6 +10,14 @@
     background-image: url("https://img.freepik.com/premium-photo/black-stethoscope-medical-tool-healthcare-blue-wall-with-copy-space_103324-532.jpg?w=2000");
     background-size:cover;
     background-position: center;
+    background-attachment:fixed;
+
+    /* background-image: url("https://img.freepik.com/premium-photo/black-stethoscope-medical-tool-healthcare-blue-wall-with-copy-space_103324-532.jpg?w=2000");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    text-align: center;  */
 }
 nav{
     display:flex;
