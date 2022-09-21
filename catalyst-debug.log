@@ -645,3 +645,616 @@ Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 13:25:24 GMT","conten
 [info] [2022-09-20T14:15:42.625Z] : Change(s) is detected in index.html of the Web-Client.
 [info] [2022-09-20T14:15:43.758Z] : Change(s) is detected in index.html of the Web-Client.
 [info] [2022-09-20T14:15:50.232Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2022-09-20T15:05:45.365Z] : > refreshing access token <
+[debug] [2022-09-20T15:05:46.218Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-20T15:05:46.805Z] : > refreshing access token <
+[debug] [2022-09-20T15:05:46.826Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-20T15:05:47.252Z] : > refreshing access token <
+[debug] [2022-09-20T15:05:47.256Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-20T15:05:47.589Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 15:06:05 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=f563fa16-9c28-43d7-95b8-bbe78b04f71c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f563fa16-9c28-43d7-95b8-bbe78b04f71c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T15:05:48.244Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 15:06:05 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=c227544a-4f52-4bf6-8a27-bfea89f517a5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c227544a-4f52-4bf6-8a27-bfea89f517a5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-20T15:05:48.407Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Sep 2022 15:06:05 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=8732f0c6-8631-4c00-8eb3-7012908a679f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8732f0c6-8631-4c00-8eb3-7012908a679f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T01:09:06.813Z] : 
+[debug] [2022-09-21T01:09:06.906Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T01:09:06.931Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-21T01:09:06.932Z] : CLI Version:  1.13.3
+[debug] [2022-09-21T01:09:06.933Z] : Platform:     win32
+[debug] [2022-09-21T01:09:06.934Z] : Node Version: v16.14.2
+[debug] [2022-09-21T01:09:08.017Z] : Time:         Wed Sep 21 2022 06:39:06 GMT+0530 (India Standard Time)
+[debug] [2022-09-21T01:09:08.018Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T01:09:08.018Z] : 
+[debug] [2022-09-21T01:10:15.894Z] : > authorizing via signed-in user option
+[debug] [2022-09-21T01:10:15.895Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-21T01:10:16.974Z] : > refreshing access token <
+[debug] [2022-09-21T01:10:17.181Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-21T01:10:30.592Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 01:10:49 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=68e98c94-2168-4bdf-8544-88fcb6385704;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=68e98c94-2168-4bdf-8544-88fcb6385704;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T01:10:31.088Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013 
+
+[debug] [2022-09-21T01:10:33.142Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 01:10:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=7dd87b6a-3dd7-4025-8704-37b247852e3e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7dd87b6a-3dd7-4025-8704-37b247852e3e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T01:10:33.152Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/environment 
+
+[debug] [2022-09-21T01:10:33.569Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 01:10:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=0bae6293-a819-43b9-967b-e20188999499;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0bae6293-a819-43b9-967b-e20188999499;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T01:11:04.939Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-21T01:11:05.545Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 01:11:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=87fda3a9-7c1e-44aa-96cd-fb501499d309;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=87fda3a9-7c1e-44aa-96cd-fb501499d309;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T01:11:05.565Z] : unknown eol undefined hence skipping check
+[info] [2022-09-21T01:16:28.021Z] : i server[unified_patient_portal_function]: URL : http://localhost:3000/server/unified_patient_portal_function/
+[info] [2022-09-21T01:16:28.025Z] : 
+[info] [2022-09-21T01:16:29.083Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-21T01:17:49.892Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-21T01:17:53.634Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-21T01:17:56.096Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-21T01:17:57.587Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-21T01:18:15.655Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:18.981Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:26.691Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:40.238Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:44.473Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:44.598Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:46.152Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:48.224Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:18:56.955Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:19:13.282Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:19:14.424Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:19:16.347Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:19:18.648Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:19:20.296Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:19:24.394Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:19:26.854Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:22:24.514Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:22:28.486Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:36.943Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:37.012Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:38.600Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:43.412Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:45.234Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:49.473Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:50.486Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:54.213Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:24:55.567Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:01.287Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:07.077Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:18.915Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:21.668Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:39.713Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:43.580Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:53.808Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:56.137Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:25:59.172Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:00.415Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:01.644Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:04.787Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:08.289Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:28.806Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:37.353Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:41.744Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:44.372Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:26:55.450Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:27:16.191Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:27:19.487Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:27:20.426Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:27:23.559Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:27:25.733Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:27:37.729Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:02.843Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:06.903Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:07.967Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:09.497Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:12.746Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:17.337Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:19.103Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:22.917Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:25.414Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:26.695Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:31.085Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:33.089Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:40.975Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:43.635Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:45.568Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:52.099Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:53.607Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:28:57.011Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:29:03.854Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:29:16.872Z] : Addition of file(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:29:43.605Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:29:52.257Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:29:54.356Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:29:58.498Z] : Change(s) is detected in adminlogin.html of the Web-Client.
+[info] [2022-09-21T01:30:31.686Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:30:33.372Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:30:33.378Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:30:40.332Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:30:40.382Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:30:41.730Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:30:44.279Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:30:48.523Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:04.334Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:06.628Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:06.715Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:18.705Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:21.966Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:25.042Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:29.481Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:31.214Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:38.646Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:40.934Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:31:42.617Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:07.835Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:13.933Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:20.109Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:22.582Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:28.298Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:30.036Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:36.626Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:44.685Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:49.103Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:51.836Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:32:55.291Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:02.074Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:04.860Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:06.597Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:22.155Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:23.428Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:26.668Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:26.749Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:31.899Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:33.856Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:56.710Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:33:57.711Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:34:04.597Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:34:05.791Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:34:15.573Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:34:19.033Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:34:21.804Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:34:26.447Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:36:48.713Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:36:50.850Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:04.866Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:08.026Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:11.126Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:12.898Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:22.230Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:23.308Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:26.145Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:28.473Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:36.039Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:37:54.000Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:01.979Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:03.791Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:05.038Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:08.529Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:09.815Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:12.252Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:13.417Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:19.504Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:20.626Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:26.473Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:30.013Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:30.075Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:33.706Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:36.472Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:36.560Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:37.919Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:38:39.786Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:39:07.478Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:39:07.617Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:39:28.457Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:39:31.746Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:39:35.186Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:39:39.703Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:05.173Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:05.263Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:11.803Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:13.427Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:16.886Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:19.780Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:22.034Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:24.653Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:27.212Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:30.013Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:49.774Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:49.791Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:50.809Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:52.609Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:40:59.067Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:03.929Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:06.053Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:09.598Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:15.852Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:18.046Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:21.988Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:24.662Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:29.810Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:36.213Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:38.858Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:41.706Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:43.262Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:46.146Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:48.221Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:50.915Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:53.546Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:41:56.491Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:00.218Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:03.107Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:05.606Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:08.006Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:09.037Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:12.890Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:15.637Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:18.307Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:19.739Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:20.916Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:23.126Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:25.215Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:42:36.241Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:45:20.176Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:45:31.127Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:45:39.235Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:45:46.093Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:45:52.551Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:45:59.804Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:03.721Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:06.276Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:06.295Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:08.397Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:10.053Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:13.846Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:19.852Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:23.952Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:30.474Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:32.862Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:35.393Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:42.497Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:45.191Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:47.814Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:51.147Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:52.994Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:55.832Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:46:56.835Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:00.464Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:04.464Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:08.822Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:14.619Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:21.857Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:25.024Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:33.936Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:35.484Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:39.401Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:46.957Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:49.046Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:47:56.587Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:05.952Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:07.032Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:09.918Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:13.302Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:17.706Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:49.169Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:50.781Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:57.864Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:48:59.322Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:06.119Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:15.878Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:19.822Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:22.447Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:45.999Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:47.982Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:51.670Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:49:58.688Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:00.160Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:04.605Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:06.296Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:08.012Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:15.139Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:17.241Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:26.876Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:29.157Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:30.730Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:39.775Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:48.010Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:52.398Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:50:59.322Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:00.347Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:03.640Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:04.637Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:15.732Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:17.203Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:20.753Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:28.976Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:33.032Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:35.672Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:38.238Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:40.467Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:43.828Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:47.344Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:51.176Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:51:53.428Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:00.755Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:04.077Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:08.962Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:35.274Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:35.281Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:36.345Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:40.053Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:45.095Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:46.557Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:49.650Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:52.792Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:54.462Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:52:58.996Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:04.240Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:10.560Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:13.449Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:15.872Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:22.965Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:27.788Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:29.811Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:39.951Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:45.261Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:50.424Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:52.958Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:53:57.099Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:02.344Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:05.660Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:10.955Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:13.709Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:19.017Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:22.669Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:26.652Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:27.690Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:54:53.369Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:00.086Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:05.809Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:12.764Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:13.870Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:19.167Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:21.325Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:27.273Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:28.324Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:30.032Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:32.314Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:35.651Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:39.075Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:43.950Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:49.485Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:55:56.393Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:20.364Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:20.566Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:21.688Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:24.468Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:25.607Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:27.503Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:37.889Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:39.822Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:41.008Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:44.190Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:49.464Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:51.816Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:56:54.499Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:06.520Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:13.082Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:20.778Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:24.314Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:25.975Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:36.227Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:41.291Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:45.278Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:46.548Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:47.804Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:54.825Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:57.538Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:57:59.435Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:03.666Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:05.423Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:07.757Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:13.424Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:16.265Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:17.909Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:21.358Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:22.451Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:26.436Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:32.553Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:38.126Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:40.274Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:44.638Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:46.833Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:54.063Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:57.096Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:58:59.677Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:07.074Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:11.927Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:13.615Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:16.472Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:20.602Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:27.117Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:29.350Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:33.572Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:34.623Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:39.850Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:43.233Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T01:59:55.118Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:03.549Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:07.286Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:13.683Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:22.377Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:23.566Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:25.822Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:32.130Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:33.263Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:45.166Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:00:57.004Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:01.524Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:04.975Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:15.699Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:22.857Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:26.535Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:32.854Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:39.272Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:45.160Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:48.824Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:01:53.755Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:03.570Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:07.681Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:13.093Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:14.462Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:19.015Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:21.741Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:23.411Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:25.808Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:29.343Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:37.890Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:40.359Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:44.260Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:49.572Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:51.246Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:53.251Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:54.848Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:58.395Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:02:58.404Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:03.896Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:07.006Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:08.789Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:17.087Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:19.729Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:23.150Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:26.635Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:28.100Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:31.382Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:03:36.844Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:04:50.221Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:04:58.621Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:07.783Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:10.171Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:13.829Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:15.442Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:22.836Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:30.484Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:33.440Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:37.452Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:40.612Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:05:46.861Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:05.059Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:06.553Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:08.872Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:10.012Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:14.040Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:15.174Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:21.602Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:26.131Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:41.235Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:44.317Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:46.966Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:48.212Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:49.860Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:52.641Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:57.026Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:58.166Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:06:59.432Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:00.526Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:02.594Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:05.865Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:09.106Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:13.080Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:16.378Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:19.527Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:28.208Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:40.064Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:43.609Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:50.246Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:07:55.701Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:00.218Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:05.089Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:06.969Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:12.795Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:13.961Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:18.023Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:25.823Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:31.634Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:38.776Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:40.599Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:43.458Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:46.621Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:52.424Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:54.054Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:58.107Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:08:59.282Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:03.841Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:09.253Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:15.161Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:18.772Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:25.236Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:30.817Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:32.719Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:33.959Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:37.561Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:44.227Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:46.493Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:52.417Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:09:57.104Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:10:02.161Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[info] [2022-09-21T02:10:04.673Z] : Change(s) is detected in adminlogin.css of the Web-Client.
+[debug] [2022-09-21T02:43:00.916Z] : 
+[debug] [2022-09-21T02:43:01.102Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T02:43:01.110Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-21T02:43:01.111Z] : CLI Version:  1.13.3
+[debug] [2022-09-21T02:43:01.111Z] : Platform:     win32
+[debug] [2022-09-21T02:43:01.112Z] : Node Version: v16.14.2
+[debug] [2022-09-21T02:43:01.907Z] : Time:         Wed Sep 21 2022 08:13:01 GMT+0530 (India Standard Time)
+[debug] [2022-09-21T02:43:01.907Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T02:43:01.907Z] : 
+[debug] [2022-09-21T02:44:52.534Z] : > authorizing via signed-in user option
+[debug] [2022-09-21T02:44:52.535Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-21T02:44:52.985Z] : > refreshing access token <
+[debug] [2022-09-21T02:44:52.988Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-21T02:45:21.999Z] : 
+[debug] [2022-09-21T02:45:22.001Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T02:45:22.002Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\kamal\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-21T02:45:22.003Z] : CLI Version:  1.13.3
+[debug] [2022-09-21T02:45:22.003Z] : Platform:     win32
+[debug] [2022-09-21T02:45:22.004Z] : Node Version: v16.14.2
+[debug] [2022-09-21T02:45:22.007Z] : Time:         Wed Sep 21 2022 08:15:22 GMT+0530 (India Standard Time)
+[debug] [2022-09-21T02:45:22.008Z] : ----------------------------------------------------------------------
+[debug] [2022-09-21T02:45:22.008Z] : 
+[debug] [2022-09-21T02:45:27.553Z] : > authorizing via signed-in user option
+[debug] [2022-09-21T02:45:27.554Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-21T02:45:27.582Z] : > refreshing access token <
+[debug] [2022-09-21T02:45:27.586Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-21T02:45:32.280Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:45:52 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=8b4fd5b4-8e2e-41a6-a244-6947c70224d3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8b4fd5b4-8e2e-41a6-a244-6947c70224d3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T02:45:32.677Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013 
+
+[debug] [2022-09-21T02:45:34.374Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:45:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=95ac7345-f785-42f2-a296-2b22bc12a39b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=95ac7345-f785-42f2-a296-2b22bc12a39b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-21T02:45:34.377Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/3179000000002013/environment 
+
+[debug] [2022-09-21T02:45:35.491Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 21 Sep 2022 02:45:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=ccde33c9-81ea-4c61-83b1-dcc57b5f4709;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ccde33c9-81ea-4c61-83b1-dcc57b5f4709;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
