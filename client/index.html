@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>sampleApp</title>
+    <title>myHealth</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -15,13 +15,103 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <link href="https:fonts.googleapis.com/css2?family=aJosefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;
-    1,600;1,700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/9db75980d8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Averia+Sans+Libre&family=Beau+Rivage&family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400&family=Roboto+Mono&family=Rubik:wght@500&family=Square+Peg&family=Tapestry&family=Ubuntu:wght@300&family=Updock&display=swap" rel="stylesheet"> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Averia+Sans+Libre&family=Beau+Rivage&family=Bebas+Neue&family=Koulen&family=Macondo&family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400&family=Roboto+Mono&family=Rubik:wght@500&family=Square+Peg&family=Tapestry&family=Truculenta:opsz@12..72&family=Ubuntu:wght@300&family=Updock&display=swap" rel="stylesheet">
+  <script src="main.js"></script>
+
+
+
+
+
+  
+
+
+
 </head>
 
 <body>
-    <div class="index">
+  <section id="title">
+    <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">
+        <img src="https://img.freepik.com/free-vector/flat-medical-symbol_23-2149496590.jpg?w=2000" width="30" height="30" alt="">
+      </a>
+      <a class="navbar-brand" href="/">myHealth</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+          <li class="nav-item active">
+            <a class="nav-link home" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <div style="padding:0 15px 0 15px;"></div>
+          <li class="nav-item">
+            <a class="nav-link " href="hospitalrequest.html">Hospital</a>
+          </li>
+          <div style="padding:0 15px 0 15px;"></div>
+          <li class="nav-item">
+            <a class="nav-link " href="">Patient</a>
+          </li>
+          <div style="padding:0 15px 0 15px;"></div>
+          <li class="nav-item">
+            <a class="nav-link " href="">About</a>
+          </li>
+          <div style="padding:0 15px 0 15px;"></div>
+        </ul>
+        
+      </div>
+    </nav>
+  </section>
+  <br><br><br><br><br>
+  <section id="Body">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+
+          <h1 style="font-family:Optima; font-weight:800;">Know your Health History </h1>
+          <br>
+
+          <p style="font-size: large; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">This portal is a Unified place where all the health records of individual patients can be maintained.
+            Hospitals need to enrol only once and updatme the heath records of patients. RThis is free of cost for all the residents of India.
+     This portalhas unique id for each individual and will remain valid for life time. This will inturn help the doctors in providing better treatments to patients 
+     since they know the previous health history.</p>
+        </div>
+        <div class="col-sm">
+            <img src="https://img.freepik.com/free-vector/people-walking-sitting-hospital-building-city-clinic-glass-exterior-flat-vector-illustration-medical-help-emergency-architecture-healthcare-concept_74855-10130.jpg" alt="image not found">
+        </div>
+       
+      </div>
+    </div> 
+  </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="index">
         <nav>
           <div class="gif">
           <img src="https://i.pinimg.com/originals/33/ba/21/33ba21ccda561739ab950d66e5616b82.gif" alt="logo" height="150 px" width="150 px" ></div>
@@ -52,7 +142,7 @@
             <li><a href="patient.html">Patient</a></li>
           </ul>
         </nav>
-    </div>
+    </div> -->
         <!-- <p>This portal is a Unified place where all the health records of individual patients can be maintained.
             Hospitals need to enrol only once and updatme the heath records of patients. RThis is free of cost for all the residents of India.
      This portalhas unique id for each individual and will remain valid for life time. This will inturn help the doctors in providing better treatments to patients 

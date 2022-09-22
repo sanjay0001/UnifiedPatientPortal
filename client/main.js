@@ -58,6 +58,53 @@ function showhospital(){
 
 
 
+// Admin login
+
+function adminLogin(){
+    var adminId=document.getElementById("AdminId").value;
+    adminId=parseInt(adminId);
+    var adminPwrd=document.getElementById("AdminPwrd").value;
+    var flag=true;
+    console.log(adminId+adminPwrd);
+
+    validateId();
+
+    function validateId(){
+        if(adminId==""){
+            alert("admin Id should not be empty");
+            flag=fasle;
+        }
+        else if(/^[0-9]+$/.test(adminId)==false){
+            alert("Enter proper ID");
+            flag=false;
+        }
+    }
+
+    if(flag==true){
+        $.ajax({
+            url:"/server/unified_patient_portal_function/Alogin",
+            type:"post",
+            contentType:"application/Json",
+            data:JSON.stringify({"admin_Id":adminId,"admin_pwrd":adminPwrd}),
+            success:function(data){
+                console.log(data.Auth);
+                if(data.Auth=="Accept"){
+                    window.location.href = 'adash.html';
+                }
+                else{
+                    alert("Entry Restricted");
+                 }
+                console.log(data);
+    
+            },
+            error:function(){
+                alert("Error");
+            }
+        })
+    
+
+    }
+}
 
 
 
@@ -66,8 +113,53 @@ function showhospital(){
 
 
 
+//HospitalLogin
+function hospitalLogin(){
+    var hospitalId=document.getElementById("HospitalId").value;
+    var password=document.getElementById("Password").value;
+    var flag=true;
+    console.log(hospitalId+password);
 
+    validateHospitalId();
 
+    function validateHospitalId(){
+        if(hospitalId==""){
+            alert("Hospital ID can't be empty");
+            flag=false;
+        }
+        else if(/^[0-9]+$/.test(hospitalId)==false){
+            alert("Enter Proper Hospital ID");
+            flag=false;
+        }
+    }
+    if(flag==true){
+        $.ajax({
+            url:"/server/unified_patient_portal_function/Hlogin",
+            type:"post",
+            contentType:"application/Json",
+            data:JSON.stringify({"hospital_id":hospitalId,"pass_word":password}),
+            success:function(data){
+                console.log("TESTDATA"+data);
+                if(data.Auth=="Accept"){
+                    window.location.href = 'hdash.html';
+                }
+                else{
+                    alert("Entry Restricted");   
+                }
+            },
+            error:function(){
+                alert("Error");
+            }
+        })
+    
+    
+    
+
+    }
+
+    
+
+}
 
 
 

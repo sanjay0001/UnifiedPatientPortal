@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="adminlogin.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="HospitalLog.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -17,39 +24,115 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="login-box">
-        <!-- <img src="https://teksoft.in/images/hospitalmgmt_inner3.jpg" alt="bg" height="100%" width="100%">
-        <div class="fields"> -->
-            <h2>Hospital Request</h2>
-            <form >
-                <div class="user-box">
-                    <input type="text" name="hosptilname" id="hosptilanameId" >
-                    <label>Hospital Name</label>
+   
+
+
+    <section id="title">
+        <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/free-vector/flat-medical-symbol_23-2149496590.jpg?w=2000" width="30" height="30" alt="">
+              </a>
+          <a class="navbar-brand" href="/">myHealth</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+              <li class="nav-item active">
+                <a class="nav-link home" href="/">Home <span class="sr-only"></span></a>
+              </li>
+              <div style="padding:0 15px 0 15px;"></div>
+              <li class="nav-item">
+                <a class="nav-link " href="hospitalrequest.html">Hospital</a>
+              </li>
+              <div style="padding:0 15px 0 15px;"></div>
+              <li class="nav-item">
+                <a class="nav-link " href="">Patient</a>
+              </li>
+              <div style="padding:0 15px 0 15px;"></div>
+              <li class="nav-item">
+                <a class="nav-link " href="">About</a>
+              </li>
+              <div style="padding:0 15px 0 15px;"></div>
+      
+            </ul>
+            
+          </div>
+        </nav>
+      </section>
+      <br>
+      <br>
+      <br>
+    
+      <section class="Body">
+    
+        
+        <br>
+    <br>
+        <div class="cont">
+            <div class="form sign-in">
+                <h2>Welcome</h2>
+                <label>
+                    <span>Hospital Id</span>
+                    <input type="text" id="HospitalId">
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" id="Password"/>
+                </label>
+                <button type="button" class="submit" onclick="hospitalLogin()">Sign In</button>
+             
+            </div>
+            <div class="sub-cont">
+                <div class="img">
+                    <div class="img__text m--up">
+                     
+                        <h3>Don't have register? Please request for registration!<h3>
+                    </div>
+                    <div class="img__text m--in">
+                    
+                        <h3>If you already has an account, just sign in.<h3>
+                    </div>
+                    <div class="img__btn">
+                        <span class="m--up">Sign Up</span>
+                        <span class="m--in">Sign In</span>
+                    </div>
                 </div>
-                <div class="user-box">
-                    <input type="text" name="contactnumber" id="contactnumberId" >
-                    <label>Contact Number</label>
+                <div class="form sign-up">
+                    <h2>Request for registration</h2>
+                     <label>
+                        <span>Hospital Name</span>
+                         <input type="text" name="hosptilname" id="hosptilanameId" >
+                    </label>
+                    <label>
+                        <span>Contact number</span>
+                        <input type="text" name="contactnumber" id="contactnumberId" >
+                    </label>
+                    <label>
+                        <span>MailId</span>
+                        <input type="text" name="emailid" id="emailId" >
+                    </label>
+                    <label>
+                        <span>Adress</span>
+                        <input type="text" name="address" id="addressId" >
+                    </label>
+                    <br>
+                    <!-- <button type="button" onclick="postHospitalDetails()">Request</button>  -->
+                    <input style="border-color: blue; color:blue;" type="button" onclick="postHospitalDetails()" value="Request">
+                    
                 </div>
-                <div class="user-box">
-                    <input type="text" name="emailid" id="emailId" >
-                    <label>Email ID</label>
-                </div>
-                <div class="user-box">
-                    <input type="text" name="address" id="addressId" >
-                    <label>Address</label>
-                </div>
-                <input type="button" style="color:black" onclick="postHospitalDetails()" value="submit">
-                
-                 <!-- <a href="#" onclick="postHospitalDetails();return false;">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Submit
-                </a>   -->
-                    <!-- <input type="button" onclick="postHospitalDetails();return false;" value="Submit"> -->
-            </form>
+            </div>
         </div>
-    </div>
+    
+        <script>
+            document.querySelector('.img__btn').addEventListener('click', function() {
+                document.querySelector('.cont').classList.toggle('s--signup');
+            });
+        </script>
+    
+    
+      </section>
+
 </body>
 </html>

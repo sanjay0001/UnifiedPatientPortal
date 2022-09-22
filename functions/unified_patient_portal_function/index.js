@@ -12,7 +12,7 @@ const columnName4 = 'address'; // The column created in the table
 // The POST API that reports the alien encounter for a particular city
 app.post('/hrequest', (req, res) => {
   console.log("From index js");
-  var requestId=Math.floor((Math.random() * 100000) + 1);
+  var requestId=Math.floor((Math.random() * 1000000) + 1);
   console.log("Routed successfully");
   var hospitalJson = req.body;
  // Initializing Catalyst SDK
@@ -76,22 +76,87 @@ app.get('/showhospital', (req, res) => {
 
 
 
+// Admin login
+ const adminTable = 'admin'; // The table created in the Data Store
+ const adminName = 'AdminId'; // The column created in the table
+ const adminPassword= 'AdminPwrd'
+ 
+ app.post('/Alogin',(req,res)=>{
+   var catalystApp = catalyst.initialize(req);
+   var details=req.body;
+   console.log(details);
+ 
+   checkAdmin(catalystApp,details.admin_Id,details.admin_pwrd).then(adminDetails => {
+     if(adminDetails!=0){
+       console.log("ADMIN RIGHT");
+       res.send({"Auth":"Accept"});
+     }
+     else{
+       console.log("ADMIN WRONG");
+       res.send({"Auth":"Decline"});
+     }
+   }).catch(err =>{
+     console.log(err);
+     sendErrorResponse(res);
+   })
+ })
+ /**
+ * @param {*} catalystApp 
+  * @param {*} adminId 
+  * @param {*} adminPwrd
+  */
+ 
+function checkAdmin(catalystApp,adminId,adminPwrd){
+   
+   var a=catalystApp.zcql().executeZCQLQuery("Select * from "+adminTable+" where "+adminName+"='" + adminId + "'"+"AND "+ adminPassword+"='"+ adminPwrd+"'");
+   return a;
+ }
 
-function sendErrorResponse(res) {
-  res.status(500);
-  res.send({
-   "error": "Internal server error occurred. Please try again in some time."
-  });
-}
 
 
-// admin login
-app.post('/hrequest', (req, res) => {
-  // write logic for admin login
+
+//HospitalLogin
+const hospitalTable='hospital'; // The table created in the Data Store
+const hospitalId='hospitalId';// The column created in the table
+const password='hospitalPassword';
+
+app.post('/Hlogin',(req,res)=>{
+  var catalystApp = catalyst.initialize(req);
+  var details=req.body;
+  console.log(details);
+
+  checkHospital(catalystApp,details.hospital_id,details.pass_word).then(hospitalDetails =>{
+    if(hospitalDetails != 0){
+      console.log("HOSPITAL RIGHT");
+      res.send({"Auth":"Accept"});
+    }
+    else{
+      console.log("HOSPITAL WRONG");
+      res.send({"Auth":"Decline"});
+
+    }
+  }).catch(err =>{
+    console.log(err);
+    sendErrorResponse(res);
+  })
+  
+
 })
 
 
+/**
+* @param {*} catalystApp 
+ * @param {*} hospital_id
+ * @param {*} pass_word
+ */
 
+
+function checkHospital(catalystApp,hospital_id,pass_word){
+  var a=catalystApp.zcql().executeZCQLQuery("Select * from "+hospitalTable+" where "+hospitalId+"='" + hospital_id + "'"+"AND "+ password+"='"+ pass_word+"'");
+	return a;
+
+
+}
 
 
 
