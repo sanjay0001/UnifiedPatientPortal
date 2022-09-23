@@ -44,6 +44,7 @@ app.post('/hrequest', (req, res) => {
 
 // })
 
+// get pending hospital details
 app.get('/showhospital', (req, res) => {
   // console.log("In the function showhospital");
  
@@ -61,11 +62,49 @@ app.get('/showhospital', (req, res) => {
   })
  });
 
+// get search hospital details
+app.get('/showSearchedhospital', (req, res) => {
+  // console.log("In the function showhospital");
+ 
+  // Initializing Catalyst SDK
+  var hospital_id=parseInt(req.query.hospitalId);
+  console.log(hospital_id);
+  var catalystApp = catalyst.initialize(req);
+ 
+  // Queries the Catalyst Data Store table and checks whether a row is present for the given city
+  getSearchedHospitaltDataFromCatalystDataStore(catalystApp,hospital_id).then(requestDetails => {
+    console.log(requestDetails);
+    res.send(requestDetails);
+   
+    
+  }).catch(err => {
+   console.log(err);
+   sendErrorResponse(res);
+  })
+ });
+
+// searched hospital date fetching function
+
+ function getSearchedHospitaltDataFromCatalystDataStore(catalystApp,hospital_id) {
+  return new Promise((resolve, reject) => {
+   // Queries the Catalyst Data Store table
+   catalystApp.zcql().executeZCQLQuery("Select * from hospital where hospitalId="+hospital_id).then(queryResponse => {
+    resolve(queryResponse);
+   }).catch(err => {
+    reject(err);
+   })
+  });
+ 
+ }
+
+
+
+
 
  function getHospitalRequestDataFromCatalystDataStore(catalystApp) {
   return new Promise((resolve, reject) => {
    // Queries the Catalyst Data Store table
-   catalystApp.zcql().executeZCQLQuery("Select * from request").then(queryResponse => {
+   catalystApp.zcql().executeZCQLQuery("Select * from request where status='P'").then(queryResponse => {
     resolve(queryResponse);
    }).catch(err => {
     reject(err);
@@ -159,12 +198,166 @@ function checkHospital(catalystApp,hospital_id,pass_word){
 }
 
 
+// Admin accept hospital request
+app.post('/acceptrequest',(req,res)=>{
+  var catalystApp = catalyst.initialize(req);
+  var details=req.body;
+  // console.log("Inside get funtion");
+
+  var requ_id=parseInt(details.requestId);
+  getHospitalInfo(catalystApp,requ_id).then(hospitalDetails =>{
+    acceptHospital(catalystApp,requ_id).then(accepthospitaldetails =>{
+      res.send({"message":"Request Rejected"});
+      // console.log(accepthospitaldetails)
+    }).catch(err =>{
+      // console.log(err);
+      sendErrorResponse(res);
+    })
+  }).catch(err =>{
+    // console.log(err);
+    sendErrorResponse(res);
+  })
+
+})
+
+
+// Admin reject hospital request
+app.post('/rejectrequest',(req,res)=>{
+  var catalystApp = catalyst.initialize(req);
+  var details=req.body;
+  // console.log("Inside get funtion");
+
+  var requ_id=parseInt(details.requestId);
+  rejectHospitalRequest(catalystApp,requ_id).then(messagedetails =>{
+    res.send({"message":"Request Rejected"});
+  }).catch(err =>{
+    // console.log(err);
+    sendErrorResponse(res);
+  })
+  
+})
+
+
+// update request table status of the hospital
+function rejectHospitalRequest(catalystApp,request_id){
+  return new Promise((resolve, reject) => {
+    // Queries the Catalyst Data Store table
+    catalystApp.zcql().executeZCQLQuery("update request set status='A' where requestId="+request_id+";").then(queryResponse => {
+     resolve(queryResponse);
+    }).catch(err => {
+     reject(err);
+    })
+   });
+}
 
 
 
+// get hospital info by request id
+function getHospitalInfo(catalystApp,request_id){
+  return new Promise((resolve, reject) => {
+    // Queries the Catalyst Data Store table
+    catalystApp.zcql().executeZCQLQuery("update request set status='A' where requestId="+request_id+";");
+    catalystApp.zcql().executeZCQLQuery("Select * from request where requestId="+request_id+";").then(queryResponse => {
+     resolve(queryResponse);
+    }).catch(err => {
+     reject(err);
+    })
+   });
+}
+
+// fetch hospital info from request table 
+function acceptHospital(catalystApp,request_id){
+  var hospital_info= new Promise((resolve, reject) => {
+    // Queries the Catalyst Data Store table
+    catalystApp.zcql().executeZCQLQuery("Select * from request where requestId="+request_id+";").then(queryResponse => {
+     resolve(queryResponse);
+    }).catch(err => {
+     reject(err);
+    })
+   });
+   hospital_info.then(hos_info=>{
+    var hname=hos_info[0]['request']['hospitalName'];
+    var hcontactnumber=parseInt(hos_info[0]['request']['contactNumber']);
+    var hmailid=hos_info[0]['request']['mailId'];
+    var haddress=hos_info[0]['request']['address'];
+    var hid=Math.floor((Math.random() * 1000000) + 1);
+    var hpwd=generatePassword();
 
 
+    var rowData={};
+    rowData['hospitalId']=hid;
+    rowData['hospitalName']=hname;
+    rowData['contactNumber']=hcontactnumber;
+    rowData['mailId']=hmailid;
+    rowData['address']=haddress;
+    rowData['hospitalPassword']=hpwd;
+    var rowArr=[];
+    rowArr.push(rowData);
+    // Inserts the city name as a row in the Catalyst Data Store table
+    catalystApp.datastore().table('hospital').insertRows(rowArr).then(requestInsertResp => {
+     res.send({
+      "message": "Request sent successfully!"
+     });
+    }).catch(err => {
+     console.log(err);
+    });
 
+
+   }).catch(err=>{
+    console.log("Error");
+   })
+   return hospital_info;
+}
+
+
+  
+
+function generatePassword(){
+  var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var passwordLength = 6;
+  var password = "";
+  for (var i = 0; i <= passwordLength; i++) {
+    var randomNumber = Math.floor(Math.random() * chars.length);
+    password += chars.substring(randomNumber, randomNumber +1);
+  }
+  return password;
+}
+
+
+// add patient
+app.post('/prequest', (req, res) => {
+  const tableName = 'patient'; // The table created in the Data Store
+  const columnName2 = 'patientName';
+  const columnName3 = 'age';
+  const columnName4= 'bloodGrp';
+  const columnName5 = 'gender';
+  const columnName6 = 'address';
+ 
+  var p_Id=Math.floor((Math.random() * 100000) + 1);
+  var hospitalJson = req.body;
+  console.log(hospitalJson);
+ // Initializing Catalyst SDK
+ var catalystApp = catalyst.initialize(req);
+   var rowData={};
+   rowData['patientId']=parseInt(p_Id);
+   rowData[columnName2]=hospitalJson.patientName;
+   rowData[columnName3]=parseInt(hospitalJson.age);
+   rowData[columnName4]=hospitalJson.bloodGrp;
+   rowData[columnName5]=hospitalJson.gender;
+   rowData[columnName6]=hospitalJson.address;
+   var rowArr=[];
+   rowArr.push(rowData);
+   console.log(rowArr);
+   // Inserts the city name as a row in the Catalyst Data Store table
+   catalystApp.datastore().table(tableName).insertRows(rowArr).then(requestInsertResp => {
+    res.send({
+     "message": "Patient Added Successfully"
+    });
+   }).catch(err => {
+    console.log(err);
+    sendErrorResponse(res);
+   });
+})
 
 
 

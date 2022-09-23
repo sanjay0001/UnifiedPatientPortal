@@ -133,8 +133,8 @@
               </li>
                <div style="padding:0 15px 0 15px;"></div>
                <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" onclick="showhospital()" style="width: 70px ;">Search</button>
+                <input class="form-control mr-sm-2" id="searchid" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" onclick="showSearchedhospital()" style="width: 70px ;">Search</button>
               </form>
                <div style="padding:0 15px 0 15px;"></div>
        
@@ -148,9 +148,26 @@
        <br>
      
        <section class="Body">
+
+        <div class="container">
+          <h2></h2>
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <h4 id="removeid">No data!</h4>
+            <div id="resultId">
+            </div>
+          </div>
+          
+        </div>
+
+
+      
      
-        <div id="resultId"></div>
-     
+
+
+
+
+
+
          <script>
              document.querySelector('.img__btn').addEventListener('click', function() {
                  document.querySelector('.cont').classList.toggle('s--signup');
