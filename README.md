@@ -80,7 +80,8 @@ configured in index.js , does what it has to and sends response back to the func
 
 ![architecture_diagram](https://user-images.githubusercontent.com/75019244/192112630-974d4f50-ccb6-4104-abec-136626422e0f.png)
 
-ScreenShots:
+
+## ScreenShots:
 
 ![ba40d633-8e74-4528-8565-847d463731a1](https://user-images.githubusercontent.com/75019244/192112754-85c95093-fd04-4c71-80f9-a23ce3f35a71.jpg)
 
@@ -104,7 +105,7 @@ ScreenShots:
  
  
  ### Project Members:
-  M. Shrish
-  K. Rhikshitha
-  A. Sanjay
+  #### M.Shrish
+  #### K.Rhikshitha
+  #### A.Sanjay
 
