@@ -73,29 +73,11 @@ Highlights of our application:
 ->If patient had appointments in the past then it is shown as a table.
 
 
-Solution architecture:
+Solution architecture: 
 
- 
+![architecture_diagram](https://user-images.githubusercontent.com/75019244/192112630-974d4f50-ccb6-4104-abec-136626422e0f.png)
 
 
-How to Run the Code:
-*Clone our github repository
-*Install Catalyst in your local machine.
-*Log into this catalyst account.
-Account Details:
-	Mail:unifiedpatientportal@gmail.com
-	Password:Shrish236
-	
-Note: Please login to this account only for testing purpose.
-*Login into your catalyst account from your cli using “catalyst login”.(Choose India as server).
-*Install express in your machine.
-*Run “catalyst serve” from your cli within the folder.
-*The website should be up and running on your local machine.
-
-Note: If you run into any troubles during running the code please mail us your queries to sanjay457510@gmail.com.
-
-Github Repository Link:
-https://github.com/sanjay0001/UnifiedPatientPortal
  
  Youtube video link:
  https://youtu.be/dmazrBWscFQ
