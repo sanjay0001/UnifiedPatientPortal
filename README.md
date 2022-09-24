@@ -27,6 +27,7 @@ If he declines, then the hospital request vanishes off.
 Search for hospital- On some uncertain conditions, if the hospital is found to be involved in any illegal activities, the admin can delete the hospital from the app permanently. For this, he can search the hospital by entering its hospital id,
 and he will see a delete button. On clicking the delete button, the hospital is removed permanently.
 ---------------------------------------------------------------------
+
 Technical Functionalities:
  Web stack used:
    We have built this app using the Zoho Catalyst Serverless platform. We have used html, css-bootstrap to develop the front end and node js for the backend functionalities.
@@ -57,12 +58,12 @@ Advanced I/O Function-
 adding patient, adding prescription, displaying patient, displaying health record.
 
 
-Working:
+## Working:
 All the functions get fired goes to the main.js file. From there, appropriate function is called and ajax is fired and sends request to the specified url. This url fires the respective GET/POST API
 configured in index.js , does what it has to and sends response back to the function call , then upon success the specified action is executed successfully. If error occurs, it is caught and alert message is displayed.
 
 
-Highlights of our application:
+## Highlights of our application:
 
 ->Admin page and home page of the app are segregated for at most security,
 ->Admin can accept or decline hospitals. Any hospitals cannot register just like that. They need approval from the admin.
@@ -73,7 +74,7 @@ Highlights of our application:
 ->If patient had appointments in the past then it is shown as a table.
 
 
-Solution architecture: 
+## Solution architecture: 
 
 ![architecture_diagram](https://user-images.githubusercontent.com/75019244/192112630-974d4f50-ccb6-4104-abec-136626422e0f.png)
 
@@ -97,6 +98,6 @@ ScreenShots:
 ![d2b93fbf-420c-4fa0-88f4-83de14cd8405](https://user-images.githubusercontent.com/75019244/192112795-c403c7f8-b4c4-41c2-bf41-15654ad69e2c.jpg)
 
  
- Youtube video link:
+ ## Youtube video link:
  https://youtu.be/dmazrBWscFQ
 
