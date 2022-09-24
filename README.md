@@ -1,4 +1,4 @@
-App Name: myHealth
+# App Name: myHealth
   Our application, myHealth, is a unified central platform for health records of all the patients regardless of the hospitals they're treated in. We basically maintain all the medical history of individual patients including the name of the hospital
 they were treated in, the name of the doctor they got treated by, all the prescription details and the diagnosis each time they visit a hospital. This will be useful for the doctors in knowing the complete health history of a patient since one
 patient can visit any hospitals anytime and every doctor cannot know the previous treatment he was given and will henceforth improve the quality of treatment given to patients. 
@@ -77,6 +77,24 @@ Solution architecture:
 
 ![architecture_diagram](https://user-images.githubusercontent.com/75019244/192112630-974d4f50-ccb6-4104-abec-136626422e0f.png)
 
+ScreenShots:
+
+![ba40d633-8e74-4528-8565-847d463731a1](https://user-images.githubusercontent.com/75019244/192112754-85c95093-fd04-4c71-80f9-a23ce3f35a71.jpg)
+![38d813c3-8f3c-4639-97cc-f4c315da679c](https://user-images.githubusercontent.com/75019244/192112763-36d185cd-9a44-4aa7-a91b-48bdce77138a.jpg)
+
+![ccd0222a-5a91-4623-b40c-1e326806e789](https://user-images.githubusercontent.com/75019244/192112773-2242d8cf-1d8d-4262-a39b-85d24dec50be.jpg)
+
+
+
+![cfd01c6d-98a2-4b0c-999f-f85dbac614d2](https://user-images.githubusercontent.com/75019244/192112776-482f767e-27ed-401d-b51b-decb5f1cf1ad.jpg)
+
+
+![9724a905-dead-491e-bcca-4cfbb74778cc](https://user-images.githubusercontent.com/75019244/192112781-b79e2826-![5b372b66-0945-4a45-9f40-22e92c1b2b36](https://user-images.githubusercontent.com/75019244/192112783-ac82ee47-5a5e-41ae-a46e-c60cff37f405.jpg)
+064c-4626-ada2-156d4773e9ea.jpg)
+
+![52f0f89e-632f-463c-a99c-1739953237f4](https://user-images.githubusercontent.com/75019244/192112786-cd9b5575-97df-43f7-9158-b09f5b883239.jpg)
+
+![d2b93fbf-420c-4fa0-88f4-83de14cd8405](https://user-images.githubusercontent.com/75019244/192112795-c403c7f8-b4c4-41c2-bf41-15654ad69e2c.jpg)
 
  
  Youtube video link:
