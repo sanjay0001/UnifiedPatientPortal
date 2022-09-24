@@ -1,4 +1,6 @@
-# App Name: myHealth
+# Unified Patient Portal
+
+## App Name: myHealth
   Our application, myHealth, is a unified central platform for health records of all the patients regardless of the hospitals they're treated in. We basically maintain all the medical history of individual patients including the name of the hospital
 they were treated in, the name of the doctor they got treated by, all the prescription details and the diagnosis each time they visit a hospital. This will be useful for the doctors in knowing the complete health history of a patient since one
 patient can visit any hospitals anytime and every doctor cannot know the previous treatment he was given and will henceforth improve the quality of treatment given to patients. 
@@ -100,4 +102,10 @@ ScreenShots:
  
  ## Youtube video link:
  https://youtu.be/dmazrBWscFQ
+ 
+ 
+ ### Project Members:
+  M. Shrish
+  K. Rhikshitha
+  A. Sanjay
 
