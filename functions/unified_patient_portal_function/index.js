@@ -283,7 +283,27 @@ function acceptHospital(catalystApp,request_id){
     var hid=Math.floor((Math.random() * 1000000) + 1);
     var hpwd=generatePassword();
 
+	let config = {
+      from_email: 'hkgkgh@zohomail.in', 
+      to_email: [hmailid], 
+      cc:[hmailid], 
+      bcc:[hmailid],
+      reply_to:[hmailid],
+      subject: 'Greetings from myHealth,your application is accepted',
+      content: "Hospital ID:"+hid+"\nPassword:"+hpwd,
 
+  };
+  let email = catalystApp.email();
+email.sendMail(config);
+let mailPromise = email.sendMail(config);
+    mailPromise.then((mailObject) => {
+        console.log(mailObject);
+    })
+	.catch((err) => {
+    console.log(err);
+	});
+	   
+	   
     var rowData={};
     rowData['hospitalId']=hid;
     rowData['hospitalName']=hname;
