@@ -326,12 +326,12 @@ function addpatient(){
                 alert("Please Fill in the fields"); 
                 flag=false;
             }
-           else if(/^[a-zA-Z]+$/.test(pat_name)==false){
-                alert("Enter Proper Name");
-                flag=false;
+          // else if(/^[a-zA-Z]+$/.test(pat_name)==false){
+           //     alert("Enter Proper Name");
+             //   flag=false;
                 
 
-           }
+          // }
            else if(/^[0-9]+$/.test(pat_age)==false||pat_age<0||pat_age>150){
                 alert("Enter Proper Age");
                 flag=false;
