@@ -322,16 +322,16 @@ function addpatient(){
     // database datetime format :  '2022-09-22 21:06:01:066'
 
     function validateEverything(){
-            if(pat_name=''|| pat_age==''||pat_bg==""||pat_gen==""||pat_add==""){
+            if(pat_name==''|| pat_age==''||pat_bg==""||pat_gen==""||pat_add==""){
                 alert("Please Fill in the fields"); 
                 flag=false;
             }
-          // else if(/^[a-zA-Z]+$/.test(pat_name)==false){
-           //     alert("Enter Proper Name");
-             //   flag=false;
+          else if(/^[a-zA-Z]+$/.test(pat_name)==false){
+               alert("Enter Proper Name");
+               flag=false;
                 
 
-          // }
+          }
            else if(/^[0-9]+$/.test(pat_age)==false||pat_age<0||pat_age>150){
                 alert("Enter Proper Age");
                 flag=false;
