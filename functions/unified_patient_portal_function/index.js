@@ -362,6 +362,198 @@ app.post('/prequest', (req, res) => {
 
 
 
+//Search for a patient
+const patientTable='patient' // The table created in the Data Store
+const patientID ='patientId' // The column created in the table
+
+
+app.post('/Psearch',(req,res) =>{
+  var catalystApp = catalyst.initialize(req);
+  var details=req.body;
+  console.log(details.patient_id);
+  retrivePatient(catalystApp,details.patient_id).then(patientDetails =>{
+    if(patientDetails!=0){
+      console.log("PATIENT RIGHT");
+  
+      var patienDetailsString=JSON.stringify(patientDetails);
+      patienDetailsString=JSON.parse(patienDetailsString);
+     
+      
+      var rowId=patienDetailsString[0]['patient']['ROWID'];
+      retriveHealthRecord(catalystApp,rowId).then(appoinmentDetais => {
+        
+        if(appoinmentDetais!=0){
+          console.log("FUNCTION"+appoinmentDetais);
+          res.send({"Auth":"Accept","Patient_Details":patientDetails,"Astatus":"Accept","Appointment_Details":appoinmentDetais});
+
+        }
+        else{
+          res.send({"Auth":"Accept","Patient_Details":patientDetails,"Astatus":"DeclineA"});
+        }
+        
+      }).catch(err =>{
+        console.log(err);
+        sendErrorResponse(res);
+      })
+
+
+
+
+
+      
+    }
+    else{
+      console.log("PATIENT WRONG")
+      res.send({"Auth":"Decline"});
+    }
+  }).catch(err =>{
+    console.log(err);
+    sendErrorResponse(res);
+  })
+
+  
+
+  
+})
+
+/**
+* @param {*} catalystApp 
+ * @param {*} patientId
+ */
+function retrivePatient(catalystApp,patientId){
+  var healthTable='healthrecord';
+  var hpatientID='patientId'
+  
+
+var a=catalystApp.zcql().executeZCQLQuery("Select * from "+patientTable+" where "+patientID+"='" + patientId+ "'");
+// var rowId=a['patient']['ROWID'];
+// var b=catalystApp.zcql().executeZCQLQuery("Select * from "+healthTable+" where " +hpatientID+"='"+rowId+"'");
+//a.push(b);
+console.log("TEST"+a);
+return a;   
+
+}
+
+
+
+/**
+* @param {*} catalystApp 
+ * @param {*} RowID
+ */
+function retriveHealthRecord(catalystApp,RowID){
+  var healthTable='healthrecord';
+  var hpatientID='patientId'
+  var b=catalystApp.zcql().executeZCQLQuery("Select * from "+healthTable+" where " +hpatientID+"='"+RowID+"'");
+  return b;
+}
+
+
+
+
+
+
+
+app.post('/APrescrip',(req,res) =>{
+  var catalystApp = catalyst.initialize(req);
+  var details=req.body;
+  // console.log(details);
+  // console.log("TESTDN "+details.Dname)
+  // res.send("SUCCES RECEIVED");
+  checkValidPatientAppoinment(catalystApp,details.PID).then(PDetail =>{
+    if(PDetail!=0){
+      // res.send({"PAuth":"Valid"});
+      checkValidHospitalID(catalystApp,details.HID).then(Hdetails =>{
+        if(Hdetails!=0){
+          //res.send({"PAuth":"Valid","HAuth":"Valid"});
+          // const tableName = 'patient'; // The table created in the Data Store
+          // const columnName2 = 'patientName';
+          // const columnName3 = 'age';
+          // const columnName4= 'bloodGrp';
+          // const columnName5 = 'gender';
+          // const columnName6 = 'address';
+          
+          const recordTable='healthrecord';
+          const col1='recordId';
+          const col2='patientId';
+          const col3='diagnosis';
+          const col4='prescription';
+          const col5='appointmentTime';
+          const col6='hospitalName';
+          const col7='doctorname';
+
+          var rowData={};
+          var RID=Math.floor((Math.random() * 100000) + 1);
+
+          var ProwId=JSON.stringify(PDetail);
+          ProwId=JSON.parse(ProwId);
+          var Row_Id=ProwId[0]['patient']['ROWID'];
+
+          var HRowId=JSON.stringify(Hdetails);
+          HRowId=JSON.parse(HRowId);
+          var H_name=HRowId[0]['hospital']['hospitalName'];
+          
+          rowData[col1]=parseInt(RID);
+          rowData[col2]=Row_Id;
+          rowData[col3]=details.Diago;
+          rowData[col4]=details.Pres;
+          rowData[col5]=details.Atime;
+          rowData[col6]=H_name;
+          rowData[col7]=details.Dname;
+
+
+          var rowArr=[];
+          rowArr.push(rowData);
+          console.log(rowArr);
+
+
+
+          catalystApp.datastore().table(recordTable).insertRows(rowArr).then(requestdone =>{
+              res.send({"PAuth":"Valid","HAuth":"Valid","Message":"Done"});
+          })
+
+
+
+
+
+
+
+        }
+        else{
+          res.send({"PAuth":"Valid","HAuth":"Invalid"})
+        }
+      })
+
+
+
+    }
+    else{
+      res.send({"PAuth":"Invalid"});
+    }
+  })
+
+
+
+
+}
+)
+
+
+function checkValidPatientAppoinment(catalystApp,patientid){
+  const patientTable='patient' // The table created in the Data Store
+  const patientID ='patientId' // The column created in the table
+  var a=catalystApp.zcql().executeZCQLQuery("Select * from "+patientTable+" where "+patientID+"='" + patientid+ "'");
+  return a;
+
+
+}
+
+function checkValidHospitalID(catalystApp,HospitalId){
+  const HTable ='hospital';
+  const HidC ='hospitalId';
+  var a=catalystApp.zcql().executeZCQLQuery("Select * from "+HTable+" where "+HidC+"='" + HospitalId+ "'");
+  return a;
+
+}
 
 
 

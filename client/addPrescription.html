@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add a Patient</title>
+    <title>Register Appoinment</title>
 
 
 
@@ -81,47 +81,22 @@
                   <h2 id="hospitalnameID"></h2>
                   <br>
                   <form id="login-form">
-                    <h2>Add Patient</h2>
+                    <h2>Register an Appoinment</h2>
                    
                     
                       
 
-                      <p><input type="text" id="pname" name="username" placeholder="Patient Name" ></p>
-                      <p><input type="text" id="page" name="username" placeholder="Age" ></p>
-                      <p>
-                        <label for="bg">Blood Group:</label><br>
-                        <select id="bg">
-                          <option value="" selected disabled>-</option>
-                          <option value="A+ve">A+ve</option>
-                          <option value="A-ve">A-ve</option>
-                          <option value="B+ve">B+ve</option>
-                          <option value="A-ve">B-ve</option>
-                          <option value="O+ve">O+ve</option>
-                          <option value="O-ve">O-ve</option>
-                          <option value="AB+ve">AB+ve</option>
-                          <option value="AB-ve">AB-ve</option>
-                          
-                          
-                        </select>
-                      </p>
-
-
-
-                    
-                      <p>
-                        <label for="pgen">Gender:</label><br>
-                        
-                        <select id="pgen">
-                          <option value="" selected disabled>-</option>
-                          <option value="Male">Male</option>
-                          <option value="Female">Female</option>
-                          <option value="Other">Other</option>
-
-                          
-                        </select>
-                      </p>
-                      <p><input type="text" id="padd" name="username" placeholder="Address" ></p>
-                      <p><input type="button" value="Submit" onclick="addpatient()"</p>
+                      <p><input type="text" id="Apid" name="username" placeholder="Patient ID" ></p>
+                      <p><input type="text" id="Dname" name="username" placeholder="Doctor Name" ></p>
+                      <p><input type="text" id="HID" name="username" placeholder="Hospital ID" ></p>
+                     <p> <textarea rows="4" cols="28" id='Diagonis' name="addr" form="form" placeholder="Enter Diagnosis"></textarea></p>
+                     <p> <textarea rows="4" cols="28" name="addr" form="form" id="Prescription" placeholder="Enter Prescription"></textarea></p>
+                      
+                      <input type="datetime-local" id="Atime">
+                        <br>
+                     
+                      
+                      <p><input type="button" value="Submit" onclick="addAppoiment()"</p>
                      
           
                    
